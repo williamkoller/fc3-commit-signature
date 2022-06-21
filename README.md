@@ -28,7 +28,7 @@
 
 9 - adicionar o agent no linux
   ```
-  sudo nano ~/.gnupg/gpg.conf
+  sudo nano ~/.gnupg/gpp.conf
 
   user-agent
 
