@@ -22,3 +22,6 @@
 7 - assinar os commits por padrao
   - `git config --global commit.gpgsign true`
   - assinar as tags `git config --global tag.gpgSign true`
+
+8 - verificar se o commit esta assinado
+  - `git log --show-signature -1`
