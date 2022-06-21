@@ -25,3 +25,12 @@
 
 8 - verificar se o commit esta assinado
   - `git log --show-signature -1`
+
+9 - adicionar o agent no linux
+  ```
+  sudo nano ~/.gnupg/gpg.conf
+
+  user-agent
+
+  gpgconf --launch gpg-agent
+  ```
